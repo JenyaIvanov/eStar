@@ -82,5 +82,7 @@ html, body {
 }
 
 .first-block {
-    background-image: url('/img/panel1bg.png') !important;
+    max-width: 150% !important;
+    width: 1600px !important;
+    margin-left: -50px !important;
 }
