@@ -2,6 +2,7 @@ html, body {
     height: 100%;
     font-size: 1rem;
     background: #020023 !important;
+    overflow-x: hidden;
 }
 
 .gradientBG {
@@ -13,13 +14,32 @@ html, body {
     margin-top: 4rem;
 }
 
+.waves-pull {
+    margin-top: -40px;
+}
+
 .img-icon {
-    max-width: 30% !important;
+    max-width: 55% !important;
+}
+
+.hero-title {
+    font-size: 128px !important;
+}
+
+.hero-img {
+    max-width: 180% !important;
+
+}
+
+.widow-image {
+    max-height: 100% !important;
+    margin-left: -150px !important;
 }
 
 .content-header {
     font-family: 'Rubik', sans-serif;
-    font-weight: bold;
+    font-weight: 700;
+    font-size: 96px;
     color: white;
 }
 
@@ -28,18 +48,34 @@ html, body {
 }
 
 .img-logo {
-    max-width: 40% !important;
+    max-width: 100% !important;
 }
 
 .content-sub {
     font-family: 'Rubik', sans-serif;
-    font-weight: lighter;
+    font-weight: 500;
+    font-size: 28px;
     color: white;
 }
 
+.team-sub {
+    font-size: 26px !important;
+    font-weight: 300;
+}
+
+.icon-sub {
+    font-size: 18px !important;
+    font-weight: 300;
+}
+
+.team-head {
+    font-size: 40px !important;
+    font-weight: 300;
+}
+
 .profile-pic {
-    max-width: 120px !important;
-    padding: 2px;
+    max-width: 164px !important;
+    padding: 4px;
     background-clip: content-box; /* support: IE9+ */
     background: linear-gradient(to bottom, #7BDDFF, #5F1C93);
 
