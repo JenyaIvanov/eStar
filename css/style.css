@@ -1,0 +1,46 @@
+html, body {
+    height: 100%;
+    font-size: 1rem;
+    background: #020023 !important;
+}
+
+.gradientBG {
+    background: rgb(123,221,255);
+    background: linear-gradient(229deg, rgba(123,221,255,1) 0%, rgba(95,28,147,1) 100%);
+}
+
+.page-header {
+    margin-top: 4rem;
+}
+
+.img-icon {
+    max-width: 30% !important;
+}
+
+.content-header {
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.small-content {
+    margin-top: -1rem !important;
+}
+
+.content-sub {
+    font-family: 'Rubik', sans-serif;
+    font-weight: lighter;
+    color: white;
+}
+
+.profile-pic {
+    max-width: 120px !important;
+    padding: 2px;
+    background-clip: content-box; /* support: IE9+ */
+    background: linear-gradient(to bottom, #7BDDFF, #5F1C93);
+
+}
+
+.first-block {
+    background-image: url('/img/panel1bg.png') !important;
+}
