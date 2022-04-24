@@ -86,8 +86,12 @@ html, body {
     color: white;
 }
 
+.text-shadow {
+    text-shadow: 3px 2px black;
+}
+
 .emblems-sub-text-margin {
-    margin-top: -85px;
+    margin-top: -65px;
 }
 
 .content-sub-small {
