@@ -35,6 +35,7 @@
 <!--~-~- <!> Warning! Boiler Plate <!> ~-~--->
 <!--~-~-  Flag  Boiler Plate -~-~--->
 
+<!---- Navbar Section ---->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-gradient fixed-top">
     <div class="container">
         <a class="navbar-brand" href="#">
@@ -62,54 +63,81 @@
     </div>
 </nav>
 
+<!---- Hero Section ---->
 <header class="page-header">
-    <div class="container pt-3">
+    <div class="container">
+        <div class="bg-image rounded text-white hero-img img-fluid" style="background-image: url('img/hero2.webp');">
+            <div class="row justify-content-start align-items-start p-3 ms-5" id="#">
+                <div class="col-md-5">
 
-        <div class="row justify-content-center align-items-center" id="#">
-            <div class="col-md-5">
-                <img src="img/logo.png" alt="" class="img-fluid mb-2 img-logo shadow">
+                    <img src="img/logo.png" alt="" class="img-fluid mb-2 mt-2 img-logo shadow">
 
-                <h1 class="content-header hero-title mt-1">
-                    Get Good
-                </h1>
-                <p class="content-sub mt-1">
-                    eStar is a platform created for gamers by gamers! It is not noticed as a senpai rank two, and educated at atleast four martial arts. As you can tell this is a text filler, yet you keep reading it. I wonder why?
-                </p>
-                <button type="button" class="btn btn-outline-info btn-lg rounded-pill mt-2">Sign Up Now</button>
-            </div>
-            <div class="col-md-5">
-                <img src="img/hero.png" alt="Hero Image" class="hero-img img-fluid">
+                    <h1 class="content-header hero-title mt-1">
+                        Get Good
+                    </h1>
+                    <p class="content-sub mt-1">
+                        eStar is a platform created for gamers by gamers! It is not noticed as a senpai rank two, and educated at atleast four martial arts. As you can tell this is a text filler, yet you keep reading it. I wonder why?
+                    </p>
+                    <button type="button" class="btn btn-info btn-lg rounded mt-2 mb-5">Sign Up Now</button>
+                    <button type="button" class="btn ms-4 btn-trns btn-lg rounded mt-2 mb-5">Support Us</button>
+                    <br><br><br><br><br><br>
+
+                </div>
             </div>
         </div>
+
+        <!-- Hero Emblems Section -->
+        <div class="row">
+            <div class="col-md-12 text-center emblems-section-text">
+                <p class="content-sub">
+                    Display your statistics from these games
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 emblems-section d-flex justify-content-center align-items-center ">
+                <div class="col-lg-4 col-md-4 col-xs-4">
+                    <img src="img/leagueEmblem.png" class="img-fluid" alt="Statistics for League of Legends">
+                </div>
+                <div class="col-lg-4 col-md-4 col-xs-4">
+                    <img src="img/overwatchEmblem.png" class="img-fluid" alt="Statistics for Overwatch">
+                </div>
+                <div class="col-lg-4 col-md-4 col-xs-4 ms-4">
+                    <img src="img/dotaEmblem.png" class="img-fluid" alt="Statistics for Dota2">
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <p class="content-sub-small">
+                    More games coming soon
+                </p>
+            </div>
+        </div>
+
     </div>
 </header>
 
+<!---- Icons Section ---->
 <section class="icons pt-5 mt-5">
-    <div class="container text-center">
-        <div class="row g-2">
-            <div class="col-md-3">
-                <img src="img/icon-community.png" class="img-fluid img-icon" alt="Community">
-                <p class="content-sub small-content icon-sub mt-4 mt-lg-5">Find communities, meet other gamers.</p>
-            </div>
-            <div class="col-md-3">
-                <img src="img/icon-joystick.png" class="img-fluid img-icon" alt="Play">
-                <p class="content-sub small-content icon-sub mt-3 mt-lg-4">Made for gamers, designed with no clutter.</p>
-            </div>
-            <div class="col-md-3">
-                <img src="img/icon-stats.png" class="img-fluid img-icon mt-lg-2" alt="Stats">
-                <p class="content-sub small-content icon-sub mt-3 mt-lg-5">Share your game statistics.</p>
-            </div>
-            <div class="col-md-3">
-                <img src="img/icon-ranks.png" class="img-fluid img-icon mt-lg-2" alt="Tournaments">
-                <p class="content-sub small-content icon-sub mt-3 mt-lg-5" id="com">Earn points, stand out.</p>
-            </div>
+    <div class="container">
+        <div class="row g-2 mb-5">
+            <h2 class="sub-title content-header icons-title-margin">
+                Why chose eStar?
+            </h2>
+
+            <div class="col-md-3"><img src="img/icon-joystick-new.png" alt="" class="img-fluid"></div>
+            <div class="col-md-3"><img src="img/icon-community-new.png" alt="" class="img-fluid"></div>
+            <div class="col-md-3"><img src="img/icon-status-new.png" alt="" class="img-fluid"></div>
+            <div class="col-md-3" id="com"><img src="img/icon-ranks-new.png" alt="" class="img-fluid"></div>
         </div>
     </div>
 </section>
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#4b6664" fill-opacity="1" d="M0,64L40,85.3C80,107,160,149,240,170.7C320,192,400,192,480,170.7C560,149,640,107,720,106.7C800,107,880,149,960,170.7C1040,192,1120,192,1200,181.3C1280,171,1360,149,1400,138.7L1440,128L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
-
-<section class="mt-lg-0">
+<!---- Community Section ---->
+<section class="mt-2">
     <div class="bg-image rounded text-white first-block img-fluid" style="background-image: url('img/panel1bg.png');">
         <div class="container p-3">
             <div class="row justify-content-start align-items-center">
@@ -129,6 +157,7 @@
 
 <div id="scout" class="mb-3 p-3"></div>
 
+<!---- Scouting Section ---->
 <section class="pt-5">
     <div class="container">
         <div class="row">
@@ -151,7 +180,7 @@
 </section>
 
 
-
+<!---- Tech Section ---->
 <section>
     <div class="bg-image p-5 rounded text-white" style="background-image: url('img/panel3bg.png');">
         <div class="container p-5">
@@ -170,8 +199,7 @@
     </div>
 </section>
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#1f0833" fill-opacity="1" d="M0,64L30,69.3C60,75,120,85,180,80C240,75,300,53,360,53.3C420,53,480,75,540,85.3C600,96,660,96,720,112C780,128,840,160,900,181.3C960,203,1020,213,1080,192C1140,171,1200,117,1260,80C1320,43,1380,21,1410,10.7L1440,0L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z"></path></svg>
-
+<!---- Team Section ---->
 <section>
     <div class="container mt-5">
         <div class="row justify-content-center align-items-center text-center mt-5">
