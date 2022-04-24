@@ -6,7 +6,6 @@ html, body {
 }
 
 .btn-trns {
-
     background-color: rgba(36, 35, 36, 0.35) !important;
 }
 
@@ -41,9 +40,7 @@ html, body {
 }
 
 .hero-img {
-    max-width: 200% !important;
-    width: 1395px !important;
-    margin-left: -50px !important;
+    max-width: 100% !important;
 }
 
 .widow-image {
@@ -117,16 +114,4 @@ html, body {
     background-clip: content-box; /* support: IE9+ */
     background: linear-gradient(to bottom, #7BDDFF, #5F1C93);
 
-}
-
-.first-block {
-    max-width: 150% !important;
-    width: 1600px !important;
-    margin-left: -50px !important;
-}
-
-@media (min-width: 500px) and (max-width: 700px) {
-    .hero-img {
-        max-width: 100%;
-    }
 }
