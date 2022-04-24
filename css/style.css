@@ -5,6 +5,11 @@ html, body {
     overflow-x: hidden;
 }
 
+.btn-trns {
+
+    background-color: rgba(36, 35, 36, 0.35) !important;
+}
+
 .gradientBG {
     background: rgb(123,221,255);
     background: linear-gradient(229deg, rgba(123,221,255,1) 0%, rgba(95,28,147,1) 100%);
@@ -22,18 +27,29 @@ html, body {
     max-width: 55% !important;
 }
 
+.icons-title-margin {
+    margin-top: -40px !important;
+    margin-bottom: 35px !important;
+}
+
+.sub-title {
+    font-size: 38px !important;
+}
+
 .hero-title {
     font-size: 128px !important;
 }
 
 .hero-img {
-    max-width: 180% !important;
-
+    max-width: 200% !important;
+    width: 1395px !important;
+    margin-left: -50px !important;
 }
 
 .widow-image {
-    max-height: 100% !important;
+    max-height: 250% !important;
     margin-left: -150px !important;
+    margin-bottom: -400px !important;
 }
 
 .content-header {
@@ -41,6 +57,21 @@ html, body {
     font-weight: 700;
     font-size: 96px;
     color: white;
+}
+
+.emblems-section-text {
+    margin-top: -135px !important;
+    z-index: 1;
+}
+
+.emblems-section-text-bottom {
+    z-index: 1;
+}
+
+.emblems-section {
+    margin-top: -90px !important;
+    z-index: 1;
+    text-align: center;
 }
 
 .small-content {
@@ -53,9 +84,16 @@ html, body {
 
 .content-sub {
     font-family: 'Rubik', sans-serif;
-    font-weight: 500;
-    font-size: 28px;
+    font-weight: 400;
+    font-size: 26px;
     color: white;
+}
+
+.content-sub-small {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: grey;
 }
 
 .team-sub {
