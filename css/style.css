@@ -6,7 +6,9 @@ html, body {
 }
 
 .btn-trns {
-    background-color: rgba(36, 35, 36, 0.35) !important;
+    background-color: rgba(63, 115, 212, 0.35) !important;
+    color: white !important;
+    font-weight: bold;
 }
 
 .gradientBG {
@@ -29,6 +31,7 @@ html, body {
 .icons-title-margin {
     margin-top: -40px !important;
     margin-bottom: 35px !important;
+    margin-left: 20px !important;
 }
 
 .sub-title {
@@ -40,13 +43,19 @@ html, body {
 }
 
 .hero-img {
-    max-width: 150% !important;
+    max-width: 100% !important;
 }
 
 .widow-image {
-    max-height: 250% !important;
-    margin-left: -150px !important;
-    margin-bottom: -400px !important;
+    max-height: 350% !important;
+    margin-top: -160px !important;
+    margin-left: -100px !important;
+    margin-bottom: -550px !important;
+}
+
+.scouting-small-print {
+    font-size: 12px !important;
+    color: lightslategrey !important;
 }
 
 .content-header {
@@ -63,6 +72,15 @@ html, body {
 
 .emblems-section-text-bottom {
     z-index: 1;
+}
+
+.stat-card:hover {
+    transform: scale(1.1)
+}
+
+.stat-card {
+    transition: all 0.2s ease;
+    cursor: pointer
 }
 
 .emblems-section {
@@ -87,7 +105,7 @@ html, body {
 }
 
 .text-shadow {
-    text-shadow: 3px 2px black;
+    text-shadow: 2px 2px black;
 }
 
 .emblems-sub-text-margin {
@@ -114,6 +132,11 @@ html, body {
 .team-head {
     font-size: 40px !important;
     font-weight: 300;
+}
+
+.first-block {
+    z-index: 0 !important;
+    max-width: 100% !important;
 }
 
 .profile-pic {
