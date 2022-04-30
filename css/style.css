@@ -11,6 +11,12 @@ html, body {
     font-weight: bold;
 }
 
+.navbar-bg {
+    background-color: rgba(63, 115, 255, 0.35) !important;
+    color: white !important;
+    font-weight: bold;
+}
+
 .gradientBG {
     background: rgb(123,221,255);
     background: linear-gradient(229deg, rgba(123,221,255,1) 0%, rgba(95,28,147,1) 100%);
@@ -54,7 +60,7 @@ html, body {
 }
 
 .scouting-small-print {
-    font-size: 12px !important;
+    font-size: 14px !important;
     color: lightslategrey !important;
 }
 
@@ -104,6 +110,10 @@ html, body {
     color: white;
 }
 
+.title-icons {
+    max-width: 75% !important;
+}
+
 .text-shadow {
     text-shadow: 2px 2px black;
 }
@@ -147,6 +157,19 @@ html, body {
     background: linear-gradient(to bottom, #7BDDFF, #5F1C93);
 }
 
-.community-banner {
-    max-width: 17% !important;
+.content-icon {
+    max-width: 15% !important;
+}
+
+.tech-icon {
+    max-width: 15% !important;
+}
+
+.tech-emblems {
+    z-index: 1 !important;
+    margin-top: -80px !important;
+}
+
+.college-logo {
+    max-width: 15% !important;
 }
