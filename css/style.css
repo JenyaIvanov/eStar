@@ -134,6 +134,7 @@ html, body {
     font-weight: 300;
 }
 
+
 .first-block {
     z-index: 0 !important;
     max-width: 100% !important;
@@ -144,5 +145,8 @@ html, body {
     padding: 4px;
     background-clip: content-box; /* support: IE9+ */
     background: linear-gradient(to bottom, #7BDDFF, #5F1C93);
+}
 
+.community-banner {
+    max-width: 17% !important;
 }
